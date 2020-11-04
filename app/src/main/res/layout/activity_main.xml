@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btntelepon"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="64dp"
+        android:background="@drawable/round_button_1"
+        android:drawableTop="@drawable/ic_baseline_call_24"
+        android:onClick="call"
+        android:padding="30dp"
+        android:text="@string/telepon"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout" />
+
+    <Button
+        android:id="@+id/btnemail"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/round_button_2"
+        android:drawableTop="@android:drawable/ic_dialog_email"
+        android:duplicateParentState="false"
+        android:padding="30dp"
+        android:text="@string/email"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/btnbiodata"
+        app:layout_constraintTop_toBottomOf="@+id/btnbiodata" />
+
+    <Button
+        android:id="@+id/btnalamat"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/round_button_3"
+        android:drawableTop="@drawable/ic_action_name"
+        android:padding="30dp"
+        android:text="@string/alamat"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/btntelepon"
+        app:layout_constraintTop_toBottomOf="@+id/btntelepon" />
+
+    <Button
+        android:id="@+id/btnbiodata"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/round_button"
+        android:drawableTop="@drawable/profile"
+        android:padding="30dp"
+        android:paddingBottom="28dp"
+        android:text="@string/biodata"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="14sp"
+        app:iconTint="#C37777"
+        app:layout_constraintEnd_toStartOf="@+id/btntelepon"
+        app:layout_constraintHorizontal_bias="0.738"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="315dp"
+        android:layout_height="260dp"
+        android:foreground="@android:color/transparent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="170dp"
+            android:accessibilityLiveRegion="none"
+            android:text="@string/briliantino_abhista_prabandanu"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp" />
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="127dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/foto" />
+
+        <TextView
+            android:id="@+id/quote"
+            android:layout_width="314dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="210dp"
+            android:text="@string/jangan_mencari_kebahagiaan_untuk_tersenyum_tapi_tersenyumlah_untuk_bahagia"
+            android:textAlignment="center"
+            android:textSize="12sp" />
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

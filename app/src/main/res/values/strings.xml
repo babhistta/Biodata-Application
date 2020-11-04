@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Biodata</string>
+    <string name="email">Email</string>
+    <string name="biodata">Biodata</string>
+    <string name="alamat">Alamat</string>
+    <string name="telepon">Telepon</string>
+    <string name="briliantino_abhista_prabandanu">Briliantino Abhista Prabandanu</string>
+    <string name="jangan_mencari_kebahagiaan_untuk_tersenyum_tapi_tersenyumlah_untuk_bahagia">Jangan Mencari kebahagiaan untuk tersenyum, tapi tersenyumlah untuk bahagia</string>
+    <string name="a11_2018_11590">A11.2018.11590</string>
+    <string name="hobby">Hobby</string>
+    <string name="design_menonton_film_mendengarkan_lagu">Design, Menonton Film, Mendengarkan Lagu</string>
+    <string name="manusia_biasa_yang_masih_bingung_mau_ngapain">Manusia biasa yang masih bingung mau ngapain</string>
+    <string name="description">Description</string>
+
+</resources>
